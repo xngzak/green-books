@@ -1,0 +1,156 @@
+@use './typography';
+@use './components';
+@use './prism';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--black);
+  font-family: var(--primaryFont);
+  background: var(--background);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+table {
+  margin-bottom: 1rem;
+}
+
+th {
+  background: #eee;
+}
+
+th,
+td {
+  border-color: #bbb;
+  border-width: 1px;
+  padding: 10px 20px;
+}
+
+.contactFormTextarea {
+  height: 8rem;
+}
+
+.categoryList {
+  list-style: none;
+}
+
+.section {
+  max-height: 250px;
+  padding: 1rem;
+  overflow-y: auto;
+  direction: ltr;
+  scrollbar-color: #d4aa70 #e4e4e4;
+  scrollbar-width: thin;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p+p {
+    margin-top: 1rem;
+  }
+}
+
+.costom-scroll::-webkit-scrollbar {
+  width: 20px;
+}
+
+.costom-scroll::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+.costom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  background-color: #b9b9b9;
+}
+
+/*記事の目次*/
+
+.toc+ul {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 0.5rem 4rem 1.5rem 4rem;
+  margin: 5rem max(0px, (50% - 15rem));
+  list-style-position: inside;
+}
+
+.toc+ul:before {
+  content: "目次";
+  display: inline-block;
+  margin: 1rem calc(50% - 1rem);
+}
+
+.toc+ul a {
+  display: inline-block;
+  padding: 0.5em 0;
+  text-decoration: none;
+  color: #555;
+  width: calc(100% - 2rem);
+}
+
+.toc+ul a:hover {
+  color: #999;
+}
+
+.toc+ul>li {
+  border-bottom: 1px dashed #666;
+}
+
+.toc+ul>li>a {
+  font-weight: bold;
+}
+
+
+.toc+ul>li>ul {
+  padding-left: 1rem;
+}
+
+.toc+ul>li>ul>li {
+  list-style-type: none;
+}
+
+.toc+ul>li>ul>li:before {
+  content: "・";
+}
+
+.toc+ul>li>ul>li>a {
+  font-weight: normal;
+}
+
+blockquote {
+  font-size: 0.9em;
+  padding: 25px 15px 8px 15px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  color: #555;
+  border-radius: 5px;
+  border-left: 3px solid orange;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.10);
+}
+blockquote p {
+  padding: 0;
+  margin: 8px 0;
+  line-height: 1.7;
+}
+blockquote cite {
+  display: block;
+  text-align: right;
+  color: #888;
+}
+
+article img:not(.cover-image){
+    border: 1px #aaa solid;
+    border-radius: 4px;
+    max-width: 100%;
+}
+p:has(> img) {
+  text-align: center;
+}

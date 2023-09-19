@@ -1,0 +1,39 @@
+// Breakpoints
+$smMin: 768px;
+$lgMin: 1280px;
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url(/fonts/RobotoMono.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSans';
+    src: url(/fonts/NotoSans.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NotoSerif';
+    src: url(/fonts/NotoSerif.woff2);
+    font-display: swap;
+}
+
+:root {
+    // Colors
+    --accent: #FFC810;
+    --background: #FFFEFE;
+    --black: #150035;
+    --sub-light: #0D918F;
+    --sub-dark: #191F2F;
+
+    // Fonts
+    --accentFont: 'NotoSerif', serif;
+    --primaryFont: 'NotoSans', sans-serif;
+    --codeFont: 'RobotoMono', monospace;
+
+    // Base styles
+    font-size: 1rem;
+    line-height: 1.6;
+}

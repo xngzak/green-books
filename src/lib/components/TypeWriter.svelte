@@ -4,10 +4,7 @@
 	let transitioning = false;
 
 	const strings = [
-		{ text: 'Hello World', timetoshow: 3000, timetohide: 300 },
-		{ text: "This is xngzak's portfolio", timetoshow: 2500, timetohide: 400 },
-		{ text: "I'm just an enthusiast", timetoshow: 2000, timetohide: 300 },
-		{ text: '"so far"', timetoshow: 3000, timetohide: 400 }
+		{ text: 'Welcome to Green Books', timetoshow: 3000, timetohide: 300 }
 	];
 	onMount(() => {
 		transitioning = true;

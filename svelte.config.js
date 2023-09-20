@@ -1,6 +1,7 @@
 import adapter from '@sveltejs/adapter-static'
 import { mdsvex } from 'mdsvex'
 import preprocess from 'svelte-preprocess'
+const dev = process.argv.include('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

@@ -4,7 +4,7 @@
 
 <div class="hero">
 	<img
-		src="./hero.webp"
+		src="./hero.svg"
 		alt="hero"
 		style="width: 512px; max-width: 100%; aspect-ratio: 512 / 437;"
 	/>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Green Books</title>
+<description></description>
+<link></link>
+<atom:link href="https:///rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<guid isPermaLink="true">https:///blog/what-is-ecocap-movement</guid>
+<title>ペットボトルキャップ集めの真実</title>
+<link>https:///blog/what-is-ecocap-movement</link>
+<description>怪しげな活動エコキャップ運動について調べてみた。</description>
+<pubDate>Sat, 24 Jun 2023 15:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/angle-advantage</guid>
+<title>【図解】壁近・壁遠の法則【シミュレーション】</title>
+<link>https:///blog/angle-advantage</link>
+<description>FPSでなぜ壁に近いと不利なのか図を使って解説します。</description>
+<pubDate>Fri, 19 May 2023 15:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/new-twitter-api</guid>
+<title>新しいTwitterAPIを試す</title>
+<link>https:///blog/new-twitter-api</link>
+<description>Twitterの新しいAPIプランについて</description>
+<pubDate>Sun, 07 May 2023 15:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/initial-icon-maker</guid>
+<title>TeamsやMicrosoftアカウントの初期アイコンを自動生成する</title>
+<link>https:///blog/initial-icon-maker</link>
+<description>TeamsやMicrosoftに使うアイコンを本家そっくりに自動生成するサービスを作りました。</description>
+<pubDate>Sun, 11 Dec 2022 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/how-to-renew-letsencrypt</guid>
+<title>Let's Encryptの更新期限が過ぎてしまったら</title>
+<link>https:///blog/how-to-renew-letsencrypt</link>
+<description>Let's Encryptで取得したSSL証明書の有効期限が切れてしまったらどうするか解説します</description>
+<pubDate>Sun, 04 Dec 2022 15:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/twitter-api-with-multiple-accounts</guid>
+<title>複数アカウントでTwitterAPIを使いまわす</title>
+<link>https:///blog/twitter-api-with-multiple-accounts</link>
+<description>TwitterAPIを複数アカウントで使いまわす方法</description>
+<pubDate>Sun, 16 Oct 2022 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/how-to-study</guid>
+<title>やる気はあるけど勉強法が分からない人のための勉強法</title>
+<link>https:///blog/how-to-study</link>
+<description>やる気はあるけど勉強法が分からない人のための勉強法</description>
+<pubDate>Sun, 19 Jun 2022 15:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/build-skelton-sveltekit</guid>
+<title>SvelteKitでスケルトンサイトを立てる</title>
+<link>https:///blog/build-skelton-sveltekit</link>
+<description>SvelteKitでスケルトンサイトを立てる</description>
+<pubDate>Mon, 07 Mar 2022 15:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/3d-model-to-papercraft</guid>
+<title>3Dモデルからペーパークラフトを作る</title>
+<link>https:///blog/3d-model-to-papercraft</link>
+<description>3Dモデルからペーパークラフトを作る</description>
+<pubDate>Sun, 20 Feb 2022 15:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/1min-codeprettify</guid>
+<title>1分でコード装飾「code-prettify」</title>
+<link>https:///blog/1min-codeprettify</link>
+<description>Google code-prettifyを使ってコード装飾</description>
+<pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/initial-setting-rtx1210</guid>
+<title>RTX1210の初期設定</title>
+<link>https:///blog/initial-setting-rtx1210</link>
+<description>YAMAHA RTXルータを起動し、インターネットに接続するまでの手順</description>
+<pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/syntax-highlighting-with-mdsvex</guid>
+<title>MDsveXでシンタックスハイライト</title>
+<link>https:///blog/syntax-highlighting-with-mdsvex</link>
+<description>MDsveXのシンタックスハイライトの使い方</description>
+<pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/deploy-nodejs-lolipop-cloud</guid>
+<title>ロリポップマネージドクラウドでNode.jsアプリをデプロイする方法</title>
+<link>https:///blog/deploy-nodejs-lolipop-cloud</link>
+<description>ロリポップマネージドクラウドでNode.jsアプリをデプロイする方法</description>
+<pubDate>Fri, 29 Oct 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/rondomwalk-simulation</guid>
+<title>FXでランダムに売買した場合の資産推移</title>
+<link>https:///blog/rondomwalk-simulation</link>
+<description>ランダムウォークの検証と破産確率の計算方法</description>
+<pubDate>Fri, 29 Oct 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https:///blog/dart-simulator</guid>
+<title>ダーツの期待値求めてみた</title>
+<link>https:///blog/dart-simulator</link>
+<description>中心を狙うよりも高得点がとれる場所があったという話</description>
+<pubDate>Tue, 29 Jun 2021 15:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

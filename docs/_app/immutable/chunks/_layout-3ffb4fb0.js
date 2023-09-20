@@ -1,0 +1,1 @@
+import{H as e}from"./control-f5b05b5f.js";function o(r,t){return new e(r,t)}const a=!0,n=!0,s="always",c=async({url:r})=>{try{return{path:r.pathname}}catch(t){throw o(500,t)}},p=Object.freeze(Object.defineProperty({__proto__:null,prerender:a,csr:n,trailingSlash:s,load:c},Symbol.toStringTag,{value:"Module"}));export{p as _,n as c,c as l,a as p,s as t};

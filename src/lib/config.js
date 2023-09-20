@@ -8,7 +8,7 @@ export const postsPerPage = 10
 
 export const navItems = [
   { href: '/', name: 'Home' },
-  { href: '/blog', name: 'Product' },
+  { href: '/product', name: 'Product' },
   { href: '/about', name: 'About' },
   { href: '/contact', name: 'Contact' },
 ];

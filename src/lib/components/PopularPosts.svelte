@@ -6,7 +6,7 @@
 	{#each posts as post}
 		{#if post.pageView>0}
 		<li class="articleBox">
-				<a href="/blog/{post.slug}">
+				<a href="/product/{post.slug}">
 					{#if post.coverImage}
 						<img
 							src={post.coverImage}
@@ -28,7 +28,7 @@
 					{/if}
 				</a>
 				<article>
-					<a href="/blog/{post.slug}">
+					<a href="/product/{post.slug}">
 						<div class="post-title">
 							{post.title}
 						</div>

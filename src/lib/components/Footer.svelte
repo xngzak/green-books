@@ -4,11 +4,10 @@
 
 <footer>
 	<p>
-		<a href="/">ホーム</a> │
-		<a href="/blog">記事一覧</a> │
-		<a href="/about">プロフィール</a> │
-		<a href="/contact">お問い合わせ</a>
-		<!-- │<a href="#">プライバシーポリシー</a>-->
+		<a href="/">Home</a> │
+		<a href="/product">Product</a> │
+		<a href="/about">About</a> │
+		<a href="/contact">Contact</a>
 	</p>
 	<p>&copy; 2021-{new Date().getFullYear()} {siteTitle}</p>
 </footer>

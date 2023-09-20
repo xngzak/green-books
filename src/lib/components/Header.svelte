@@ -12,7 +12,7 @@
 <header class="header {y > 100 ? 'scrolled' : ''}">
 	<!--ロゴ-->
 	<a href="/" alt="back to home">
-		<img class="header_logo {y > 100 ? 'scrolled' : ''}" src="/logo.webp" alt="header logo" />
+		<img class="header_logo {y > 100 ? 'scrolled' : ''}" src="/header.png" alt="header logo" />
 	</a>
 	<!--グローバルナビ-->
 	<nav>
